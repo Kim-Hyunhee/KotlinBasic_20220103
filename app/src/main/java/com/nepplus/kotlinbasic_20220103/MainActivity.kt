@@ -28,7 +28,13 @@ class MainActivity : AppCompatActivity() {
         
         btnMessageToast.setOnClickListener {
 
-            Toast.makeText(this, "input ~~", Toast.LENGTH_SHORT).show()
+            // 1. edtMessage sentence => variety save
+            val inputMessage = edtMessage.text.toString()   // input sentence =>string =>variety save
+
+            // 2. inputMessage => String interleave
+            // Python : f'str
+
+            Toast.makeText(this, "input ${inputMessage}", Toast.LENGTH_SHORT).show()
         }
 
     }
