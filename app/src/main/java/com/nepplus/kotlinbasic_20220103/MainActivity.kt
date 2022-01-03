@@ -22,7 +22,8 @@ class MainActivity : AppCompatActivity() {
     // toast button
         btnToast.setOnClickListener {
 // "hello" sentence
-            Toast.makeText(this, "hello", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "hello~", Toast.LENGTH_SHORT).show()
+
         }
 
     }
