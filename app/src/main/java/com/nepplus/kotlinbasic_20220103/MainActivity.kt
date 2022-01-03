@@ -25,6 +25,11 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this, "hello~", Toast.LENGTH_SHORT).show()
 
         }
+        
+        btnMessageToast.setOnClickListener {
+
+            Toast.makeText(this, "input ~~", Toast.LENGTH_SHORT).show()
+        }
 
     }
 }

@@ -27,11 +27,13 @@
         android:text="message"/>
 
     <EditText
+        android:id="@+id/edtMessage"
         android:layout_width="wrap_content"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:hint="anyway"
         android:singleLine="true" />
     <Button
+        android:id="@+id/btnMessageToast"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="toast"/>
